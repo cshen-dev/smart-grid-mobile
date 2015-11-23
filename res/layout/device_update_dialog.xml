@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="2" >
+
+    	<TextView
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="修改设备信息" />
+
+        <TextView
+            android:id="@+id/tv_device_name"
+            android:layout_columnSpan="1"
+            android:text="新的设备名称" />
+
+        <EditText
+            android:id="@+id/et_device_name"
+            android:layout_columnSpan="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    
+
+</GridLayout>

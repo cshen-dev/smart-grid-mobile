@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电力消费展示系统</string>
+    <string name="title_activity_main">电力消费展示系统</string>
+    
+    
+    <string name="action_settings">登出</string>
+
+    <string-array name="navigation_drawer_items">
+        <item>用户账户</item>
+        <item>实时用电</item>
+        <item>累计用电</item>
+        <item>用电历史</item>
+        <item>设备详情</item>
+        <item>帮助与设置</item>
+    </string-array>
+
+    
+
+    <string name="loginname">账户</string>
+
+    <string name="loginpassword">密码</string>
+
+</resources>

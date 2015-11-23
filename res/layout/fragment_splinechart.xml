@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <FrameLayout 
+        android:layout_width="400dip"
+        android:layout_height="420dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <edu.mushrchun.view.SplineChart03View
+        	android:id="@+id/chart_view"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+         />
+        <ProgressBar 
+            android:id="@+id/pb_refresh"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"/>
+    </FrameLayout>
+    
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+	<GridLayout 
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+	    <TextView
+            android:id="@+id/tv_startDate"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="起始日期" />
+        
+        <TextView
+            android:id="@+id/tv_startDate2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="/时间" />
+
+        
+
+        <TextView
+            android:id="@+id/tv_endDate"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="结束日期" />
+        <TextView
+            android:id="@+id/tv_endDate2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="/时间" />
+	</GridLayout>
+        
+        <Button
+	        android:id="@+id/bt_submitDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:text="确定" />
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

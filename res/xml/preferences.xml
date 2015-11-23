@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+
+    <PreferenceCategory
+            android:title="设置">
+
+        <CheckBoxPreference
+                android:key="checkbox_preference"
+                android:title="自动检查更新"
+                android:summary="选中该选项将接受来自服务器的更新信息" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="帮助">
+
+        <PreferenceScreen
+            android:title="这里是黑洞"
+			android:summary="本程序由沈淳同学代工">
+		</PreferenceScreen>
+	</PreferenceCategory>
+
+
+</PreferenceScreen>
+
